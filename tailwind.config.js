@@ -46,6 +46,7 @@ module.exports = {
         "gray-1": "#F9FAFB",
         "gray-2": "#F3F4F6",
         "gray-7": "#CED4DA",
+        headline: "#60a5fa",
       },
       boxShadow: {
         input: "0px 7px 20px rgba(0, 0, 0, 0.03)",

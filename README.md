@@ -4,10 +4,18 @@
 # Prepare environent
 ## Install python environment
 [todo make me]
+### Make virtual environment
+```
+$ python3 -m venv venv
+$ source venv/bin/activate
+$ pip install -r requirements.txt
+```
 ## Install nodejs environment
 [todo make me]
 
 # Build
+Use two step build to render this website
+
 ## step one - build html files from templates
 ### TLDR
 have installed python3, staticjinja
