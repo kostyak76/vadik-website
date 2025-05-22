@@ -1,0 +1,42 @@
+<section class="pb-8 pt-20 md:relative md:pt-0 md:-mt-4 lg:-mt-8">
+  <div class="container">
+    <div class="-mx-4 flex flex-wrap">
+      <div class="w-full px-4 md:w-1/3 text-white" data-wow-delay=".1s">
+        {% with %}
+        {% set bgClass='bg-[#005299]' %}
+        {% set image='/assets/images/plumbing-faucet-wrench-water-drops-scaled.jpg' %}
+        {% set imageAlt='Plumbing faucet and wrench in water drops during equipment repair during an accident' %}
+        {% set icon='index/_servicesIntroFirstIcon.html' %}
+        {% set subject='PLUMBING SERVICES' %}
+        {% set message='From leaky faucets to major repairs, we handle all your plumbing needs.' %}
+
+        {% include 'index/_servicesIntroTmpl.html' %}
+        {% endwith %}
+      </div>
+      <div class="w-full px-4 md:w-1/3 text-white" data-wow-delay=".15s">
+        {% with %}
+        {% set bgClass='bg-[#50abf9]' %}
+        {% set image='/assets/images/swirl-water-going-down-sink-scaled.jpg' %}
+        {% set imageAlt='Water going down sink after repairs' %}
+        {% set icon='index/_servicesIntroSecondIcon.html' %}
+        {% set subject='DRAIN CLEANING' %}
+        {% set message='Our expert drain cleaning services, will restore flow and function to your home.' %}
+
+        {% include 'index/_servicesIntroTmpl.html' %}
+        {% endwith %}
+      </div>
+      <div class="w-full px-4 md:w-1/3 text-white" data-wow-delay=".2s">
+        {% with %}
+        {% set bgClass='bg-[#005299]' %}
+        {% set image='/assets/images/plumber-using-wrench-repair-water-pipe-sink-scaled.jpg' %}
+        {% set imageAlt='Plumber using a wrench to repair a water pipe under the sink.' %}
+        {% set icon='index/_servicesIntroThirdIcon.html' %}
+        {% set subject='DRAIN REPAIR' %}
+        {% set message='We deliver top-quality drain repair services that provide lasting value.' %}
+
+        {% include 'index/_servicesIntroTmpl.html' %}
+        {% endwith %}
+      </div>
+    </div>
+  </div>
+</section>

@@ -32,3 +32,8 @@ have nodejs installed and node packages
 
 # TODO
 - generate copyright date dinamically
+
+
+# REFS
+- [google fonts](https://fonts.google.com/icons?icon.query=time&icon.size=24&icon.color=%231f1f1f) - for icons
+
