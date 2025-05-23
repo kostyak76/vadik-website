@@ -31,9 +31,12 @@ have nodejs installed and node packages
 - Regenerate copyright date [todo make me]
 
 # TODO
-- generate copyright date dinamically
 - make updates from the email (page updates)
-- home page - fix blue backgrounds?
+- implement /todo.html links
+- 404 page???
+- promotions popup???
+- make top nav to have an active item (link of different color that corresponds to the current page)
+- add request estimate to the header
 
 
 # REFS
