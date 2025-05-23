@@ -1,0 +1,13 @@
+<div class="text-white p-8">
+  <p class="pb-4">SPECIAL OFFER</p>
+  <p class="text-3xl pb-4">{{ message }}</p>
+  <div class="inline-block bg-red-500 p-4 py-2 text-white text-sm hover:cursor-pointer relative hover:-top-1">
+    <a href="/contact-us" target="_self" title="CONTACT US">
+      CONTACT US</a>
+  </div>
+  <p class="text-sm pt-4">Not valid with any other offer</p>
+  {% if isRedeamable %}
+  <p class="text-sm pt-4">Redeemable once per customer.</p>
+  {% endif %}
+  <p class="text-sm pt-4">Expires: {{ promoExpires }}</p>
+</div>

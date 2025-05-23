@@ -32,6 +32,8 @@ have nodejs installed and node packages
 
 # TODO
 - generate copyright date dinamically
+- make updates from the email (page updates)
+- home page - fix blue backgrounds?
 
 
 # REFS

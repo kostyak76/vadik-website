@@ -18,7 +18,7 @@ def main():
     outpath="build",
     # contexts=[(r".*\.md", md_context)],
     # rules=[(r".*\.md", render_md)],
-    env_globals={"randomHash": uuid4()}
+    env_globals={"randomHash": uuid4(), "promoExpires": "October 31, 2024"}
   )
 
   site.render()
