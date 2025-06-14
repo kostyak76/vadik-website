@@ -686,6 +686,10 @@ body {
   z-index: 999;
 }
 
+.z-0{
+  z-index: 0;
+}
+
 .-m-5{
   margin: -1.25rem;
 }
@@ -713,6 +717,11 @@ body {
 .my-\[6px\]{
   margin-top: 6px;
   margin-bottom: 6px;
+}
+
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .-mb-3{
@@ -795,10 +804,6 @@ body {
   margin-top: 6px;
 }
 
-.-mt-\[100px\]{
-  margin-top: -100px;
-}
-
 .block{
   display: block;
 }
@@ -827,6 +832,10 @@ body {
   height: 0.75rem;
 }
 
+.h-\[100px\]{
+  height: 100px;
+}
+
 .h-\[2px\]{
   height: 2px;
 }
@@ -837,36 +846,6 @@ body {
 
 .h-\[70px\]{
   height: 70px;
-}
-
-.h-40{
-  height: 10rem;
-}
-
-.h-\[120px\]{
-  height: 120px;
-}
-
-.h-\[100px\]{
-  height: 100px;
-}
-
-.max-h-20{
-  max-height: 5rem;
-}
-
-.max-h-40{
-  max-height: 10rem;
-}
-
-.min-h-fit{
-  min-height: -moz-fit-content;
-  min-height: fit-content;
-}
-
-.min-h-max{
-  min-height: -moz-max-content;
-  min-height: max-content;
 }
 
 .min-h-screen{
@@ -937,12 +916,12 @@ body {
   max-width: 100%;
 }
 
-.flex-1{
-  flex: 1 1 0%;
+.max-w-\[860px\]{
+  max-width: 860px;
 }
 
-.flex-auto{
-  flex: 1 1 auto;
+.flex-1{
+  flex: 1 1 0%;
 }
 
 .-translate-y-1\/2{
@@ -1069,19 +1048,23 @@ body {
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
-.bg-\[\#005299\]{
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 82 153 / var(--tw-bg-opacity));
-}
-
 .bg-\[\#090E34\]{
   --tw-bg-opacity: 1;
   background-color: rgb(9 14 52 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#50abf9\]{
+.bg-blue-light{
   --tw-bg-opacity: 1;
   background-color: rgb(80 171 249 / var(--tw-bg-opacity));
+}
+
+.bg-blue-medium{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 82 153 / var(--tw-bg-opacity));
+}
+
+.bg-blue-medium\/50{
+  background-color: rgb(0 82 153 / 0.5);
 }
 
 .bg-gray-1{
@@ -1094,11 +1077,6 @@ body {
   background-color: rgb(96 165 250 / var(--tw-bg-opacity));
 }
 
-.bg-primary{
-  --tw-bg-opacity: 1;
-  background-color: rgb(55 88 249 / var(--tw-bg-opacity));
-}
-
 .bg-red-500{
   --tw-bg-opacity: 1;
   background-color: rgb(239 68 68 / var(--tw-bg-opacity));
@@ -1109,39 +1087,9 @@ body {
   background-color: rgb(19 194 150 / var(--tw-bg-opacity));
 }
 
-.bg-transparent\/25{
-  background-color: rgb(0 0 0 / 0.25);
-}
-
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-blue-medium{
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 82 153 / var(--tw-bg-opacity));
-}
-
-.bg-blue-light{
-  --tw-bg-opacity: 1;
-  background-color: rgb(80 171 249 / var(--tw-bg-opacity));
-}
-
-.bg-blue-light\/25{
-  background-color: rgb(80 171 249 / 0.25);
-}
-
-.bg-blue-light\/50{
-  background-color: rgb(80 171 249 / 0.5);
-}
-
-.bg-blue-medium\/50{
-  background-color: rgb(0 82 153 / 0.5);
-}
-
-.bg-blue-medium\/25{
-  background-color: rgb(0 82 153 / 0.25);
 }
 
 .bg-\[url\(\/assets\/images\/metro-plumbing-homepage-background-3\.jpg\)\]{
@@ -1247,6 +1195,11 @@ body {
   padding-bottom: 6px;
 }
 
+.py-\[115px\]{
+  padding-top: 115px;
+  padding-bottom: 115px;
+}
+
 .pb-24{
   padding-bottom: 6rem;
 }
@@ -1275,24 +1228,12 @@ body {
   padding-top: 10rem;
 }
 
-.pt-\[120px\]{
-  padding-top: 120px;
-}
-
-.pt-2{
-  padding-top: 0.5rem;
-}
-
-.pt-\[\]{
-  padding-top: ;
-}
-
-.pt-\[80px\]{
-  padding-top: 80px;
-}
-
 .pt-\[100px\]{
   padding-top: 100px;
+}
+
+.pt-\[120px\]{
+  padding-top: 120px;
 }
 
 .text-center{
@@ -1405,6 +1346,26 @@ body {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-slate-500{
+  --tw-text-opacity: 1;
+  color: rgb(100 116 139 / var(--tw-text-opacity));
+}
+
+.text-slate-200{
+  --tw-text-opacity: 1;
+  color: rgb(226 232 240 / var(--tw-text-opacity));
+}
+
+.text-slate-100{
+  --tw-text-opacity: 1;
+  color: rgb(241 245 249 / var(--tw-text-opacity));
+}
+
+.text-slate-50{
+  --tw-text-opacity: 1;
+  color: rgb(248 250 252 / var(--tw-text-opacity));
 }
 
 .shadow{
@@ -1652,6 +1613,10 @@ body {
   top: -0.25rem;
 }
 
+.hover\:-top-2:hover{
+  top: -0.5rem;
+}
+
 .hover\:cursor-pointer:hover{
   cursor: pointer;
 }
@@ -1681,15 +1646,29 @@ body {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.hover\:text-black:hover{
+  --tw-text-opacity: 1;
+  color: rgb(33 43 54 / var(--tw-text-opacity));
+}
+
 .focus\:ring-2:focus{
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
+.group:hover .group-hover\:-top-2{
+  top: -0.5rem;
+}
+
 .group:hover .group-hover\:bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-headline{
+  --tw-bg-opacity: 1;
+  background-color: rgb(96 165 250 / var(--tw-bg-opacity));
 }
 
 .group:hover .group-hover\:text-black{
@@ -1710,6 +1689,11 @@ body {
 .group:hover .group-hover\:text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.group:hover .group-hover\:text-blue-500{
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 
 .group:hover .group-hover\:opacity-100{
@@ -1750,6 +1734,10 @@ body {
     height: 60px;
   }
 
+  .sm\:w-1\/2{
+    width: 50%;
+  }
+
   .sm\:max-w-\[60px\]{
     max-width: 60px;
   }
@@ -1757,6 +1745,10 @@ body {
   .sm\:px-\[30px\]{
     padding-left: 30px;
     padding-right: 30px;
+  }
+
+  .sm\:pb-0{
+    padding-bottom: 0px;
   }
 
   .sm\:text-2xl{
@@ -1835,6 +1827,10 @@ body {
 
   .md\:pt-\[130px\]{
     padding-top: 130px;
+  }
+
+  .md\:pb-0{
+    padding-bottom: 0px;
   }
 
   .md\:text-left{
