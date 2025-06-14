@@ -41,11 +41,9 @@ have nodejs installed and node packages
 
 # TODO
 - what about social media links???
-- implement /todo.html links
 - add a map?
 - add popup promitional banner?
 - add search engine texts
-- fix footer position on big screen
 - rethink Contact-US section
 
 
