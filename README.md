@@ -47,7 +47,6 @@ have nodejs installed and node packages
 - add search engine texts
 - fix footer position on big screen
 - rethink Contact-US section
-- clean assets
 
 
 # REFS
